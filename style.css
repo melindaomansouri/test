@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: pink;
+}
+
+.header > .logo {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.header > .navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    transition: 5s;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.navigation a:hover {
+    color: grey;
+}
